@@ -110,7 +110,7 @@ Reloading Whole Page
 
 =head1 DESCRIPTION
 
-Plack::Middleware::AutoReloadCSS automatically inserts a JavaScript
+Plack::Middleware::AutoReloadCSS automatically inserts some JavaScript
 snippets to enable CSS refreshing feature without reloading whole
 page.
 
