@@ -14,6 +14,7 @@ my $build = Module::Build->new(
     requires             => {
         perl   => "$]",
         parent => '0',
+        Plack  => '0',
     },
 
     no_index    => { 'directory' => [ 'inc' ] },
@@ -28,12 +29,4 @@ my $build = Module::Build->new(
     create_readme  => 1,
     create_license => 1,
 );
-$build->meta_add({
-    resources => {
-        X_prepan => {
-            module_url => 'http://prepan.org/module/xxxxx',
-            author_url => 'http://prepan.org/user/xxxxxxx',
-        },
-    },
-});
 $build->create_build_script();

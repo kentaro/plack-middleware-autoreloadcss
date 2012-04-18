@@ -7,7 +7,7 @@ use Plack::Util ();
 use Plack::Util::Accessor qw(interval);
 
 use parent qw(Plack::Middleware);
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub call {
     my($self, $env) = @_;

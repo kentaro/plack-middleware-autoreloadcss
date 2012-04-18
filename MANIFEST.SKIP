@@ -57,6 +57,11 @@
 ^MYMETA\.
 #!end included /Users/antipop/perl5/perlbrew/perls/perl-5.14.2/lib/5.14.2/ExtUtils/MANIFEST.SKIP
 
+# Avoid carton-related files
+carton\.lock
+\.carton/
+local/
+
 ^\.git/
 \bRCS\b
 \bCVS\b
