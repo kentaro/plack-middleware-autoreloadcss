@@ -123,11 +123,9 @@ page.
 =item * Nikita Vasilyev
 
 CSS auto-reload is borrowed from
-L<http://nv.github.com/css_auto-reload/>.
+L<http://nv.github.com/css_auto-reload/>
 
 =back
-
-=head1 SEE ALSO
 
 =head1 LICENSE
 
